@@ -8,9 +8,7 @@ import random
 
 
 def choices(seq, k):
-    result = []
-    for n in range(k):
-        result.append(random.choice(seq))
+    result = [random.choice(seq) for x in range(k)]
     return result
 
 # set up the three caves
